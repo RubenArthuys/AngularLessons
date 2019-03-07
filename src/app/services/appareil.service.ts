@@ -7,6 +7,24 @@ export class AppareilService {
 
   appareilSubject = new Subject<any []>();
 
+  // private appareils = [
+  //   {
+  //     id: 1,
+  //     name: 'Computer',
+  //     status: 'on'
+  //   },
+  //   {
+  //     id: 2,
+  //     name: 'Tesla Coil',
+  //     status: 'on'
+  //   },
+  //   {
+  //     id: 3,
+  //     name: 'Robot dog',
+  //     status: 'on'
+  //   }
+  // ];
+
   private appareils = [];
 
   constructor(private httpClient: HttpClient) {}
